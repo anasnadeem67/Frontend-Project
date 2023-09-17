@@ -1,0 +1,568 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Eyeonic</title>
+<link rel="stylesheet" href="eyeonic.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div class="top-nav-bar">
+<div class="search-box">
+  <i class="fa fa-bars" id="menu-btn" onClick="openmenu()"></i>
+  <i class="fa fa-times" id="close-btn" onClick="closemenu()"></i>
+<img src="Images/eyeconic_logos.png" class="logo">
+<input type="text" class="form-control" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" placeholder="Search">
+<span class="text"><i class="fa fa-search"></i></span>
+</div>
+<div class="menu-bar">
+<ul>
+<li><a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+<li><a href="https://signupeyeconic.blogspot.com/">Sign Up</a></li>
+<li><a href="https://logineyeconic.blogspot.com/">Log in</a></li>
+</ul>
+</div>
+</div>
+
+<section>
+<div class="side" id="side">
+<ul id="wrapper">
+<li><a href="men_Product.html">Men</a><i class="fa fa-angle-right"></i>
+<ul>
+<li><a href="Product4.html">Eye Glass 1</a></li>
+<li><a href="Product7.html">Eye Glass 2</a></li>
+<li><a href="Product11.html">Eye Glass 3</a></li>
+<li><a href="Product12.html">Eye Glass 4</a></li>
+</ul>
+</li>
+<li><a href="women_Product.html">Women</a><i class="fa fa-angle-right"></i>
+<ul>
+<li><a href="Product9.html">Eye Glass 1</a></li>
+<li><a href="Product10.html">Eye Glass 2</a></li>
+<li><a href="Product6.html">Eye Glass 3</a></li>
+<li><a href="Product9.html">Eye Glass 4</a></li>
+</ul>
+</li>
+<li><a href="Eye_Glasses.html">EyeGlasses</a><i class="fa fa-angle-right"></i>
+<ul>
+<li><a href="Product2.html">High Fashion Metal Temple Horn Rimmed Clear Lens Eye Glass</a></li>
+<li><a href="Eye_Glasses_Product2.html">zeroUV - Retro Wide Arm Square Clear Lens Horn Rimmed Eyeglass</a></li>
+</ul>
+</li>
+<li><a href="Sun_Glasses.html">Sun Glasses</a><i class="fa fa-angle-right"></i>
+<ul>
+<li><a href="Product.html">Boys' Sun Glasses</a></li>
+<li><a href="Product8.html">Girls' Sun Glasses</a></li>
+</ul>
+</li>
+<li><a href="lenses.html">Lences</a><i class="fa fa-angle-right"></i>
+<ul>
+<li><a href="Lens_Product3.html">Soft Eye Dark Brown Monthly Color Contact Lens...</a></li>
+<li><a href="Lens_Product2.html">Sparkle Eye® 1 Pair of Monthly Color Contact Lens...</a></li>
+<li><a href="Lens_Product4.html">Diamond Eye Monthly Sky Blue Colored Contact Lens...</a></li>
+<li><a href="Lens_Product1.html">Sparkle Eye® 1 Pair of Monthly Color Contact Lens...</a></li>
+</ul>
+</li>
+<li><a href="sale.html">Sale</a><i class="fa fa-angle-right"></i>
+<ul>
+<li><a href="Product9.html">Eyewear Non-prescription Eyeglasses Frame for Women</a></li>
+<li><a href="Product10.html">OCCI CHIARI Women Eyewear Frame With Clear Lenses</a></li>
+<li><a href="Product11.html">Shiratori New Vintage Fashion Half Frame Clear Lens Glass</a></li>
+<li><a href="Product12.html">Unisex Translucent Simple Design Clear Lens Glass</a></li>
+</ul>
+</li>
+<li><a href="special_offer.html">Special Offer</a><i class="fa fa-angle-right"></i>
+<ul>
+<li><a href="special_offer.html">Men's Glasses</a></li>
+<li><a href="special_offer.html">Femail's Glasses</a></li>
+</ul>
+</li>
+<li><a href="Contact_us.html">Contact Us</a></li>
+</ul>
+</div>
+<div class="slider">
+
+<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner" id="s1">
+    <div class="carousel-item active">
+      <img src="Images/40off-lenses-hp.jpg" class="d-block w-100" 
+      usemap="#imagemap">
+    </div>
+    <div class="carousel-item" id="s2">
+      <img src="Images/image171.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item" id="s3">
+      <img src="Images/Capture2.PNG" class="d-block w-100">
+    </div>
+  </div>
+  <ol class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+  </ol>
+</div>
+
+</div>
+</section>
+
+
+
+<section class="product">
+<div class="container">
+  <div class="box">
+  <h2>Products</h2>
+  </div>
+  <div class="row">
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image1.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star-half-o"></i>
+  <h3><a href="Product.html">VeBrellen Retro Round Flip-Up Glass...</a></h3>
+  <h5>$12.49</h5>
+  </div>
+  </div>
+  
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image2.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <h3><a href="Product2.html">Happy Store CN79 Clear Lens Eye Glass...</a></h3>
+  <h5>$10.99</h5>
+  </div>
+  </div>
+  
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/images_3.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <h3><a href="Product3.html">Outray Vintage Inspired Small Nails Round Lens...</a></h3>
+  <h5>$8.99</h5>
+  </div>
+  </div>
+  
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image4.webp">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star-half-o"></i>
+  <i class="fa fa-star-o"></i>
+  <h3><a href="Product4.html">OWL - Non Prescription Glass - Clear Lens...</a></h3>
+  <h5>$4.20</h5>
+  </div>
+  </div>
+  
+  
+  </div>
+  <div class="row">
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image5.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star-o"></i>
+  <i class="fa fa-star-o"></i>
+  <h3><a href="Product5.html">Retro Round Clear Lens Glasses Metal Frame...</a></h3>
+  <h5>$11.99</h5>
+  </div>
+  </div>
+  
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image6.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star-o"></i>
+  <h3><a href="Product6.html">FEISEDY Women Vintage Glass Frame...</a></h3>
+  <h5>$13.99</h5>
+  </div>
+  </div>
+  
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image7.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <h3><a href="Product7.html">Happy Store CN56 Vintage Inspired Classic...</a></h3>
+  <h5>$9.99</h5>
+  </div>
+  </div>
+  
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image8.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star-half-o"></i>
+  <i class="fa fa-star-o"></i>
+  <h3><a href="Product8.html">GREY JACK Classic Half Frame Sunglasses Fashi...</a></h3>
+  <h5>$9.99</h5>
+  </div>
+  </div>
+    
+  </div>
+
+
+</div>
+</section>
+
+
+<section class="sale">
+<div class="container">
+  <div class="box">
+  <h2>On Sale</h2>
+  </div>
+  <div class="row">
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image9.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star-half-o"></i>
+  <h3><a href="Product9.html">TIJN Vintage Round Metal Optical Eyewear...</a></h3>
+  <h5>$13.99</h5>
+  <p><small><del>$15.99<del></small></p>
+  </div>
+  </div>
+  
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image10.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <h3><a href="Product10.html">OCCI CHIARI Women Rectangle Stylish...</a></h3>
+  <h5>$17.99</h5>
+  <p><small><del>$19.99<del></small></p>
+  </div>
+  </div>
+  
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image11.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <h3><a href="Product11.html">Shiratori New Vintage Fashion Half Frame...</a></h3>
+  <h5>$6.99</h5>
+  <p><small><del>$9.00<del></small></p>
+  </div>
+  </div>
+  
+  <div class="col">
+  <div class="product-top">
+   <img src="Images/image12.jpg">
+   <div class="right">
+   <button type="button" class="btn" title="Quick Shop">
+     <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Favourite">
+     <i class="fa fa-heart-o"></i>
+   </button>
+   <button type="button" class="btn" title="Add to Cart">
+     <i class="fa fa-shopping-cart"></i>
+   </button>
+   </div>
+  </div>
+  <div class="product-bottom">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star-half-o"></i>
+  <i class="fa fa-star-o"></i>
+  <h3><a href="Product12.html">Unisex Translucent Simple Design No Logo Clear...</a></h3>
+  <h5>$7.99</h5>
+  <p><small><del>$9.99<del></small></p>
+  </div>
+  </div>
+  
+    
+</div>
+</section>
+
+<!-----------website-info---------->
+
+<section class="website-info">
+<div class="container">
+<div class="row">
+<div class="col">
+<img src="Images/135-512.png">
+<div class="text">
+   <p><b>100% Original items </b>are available at Company</p>
+</div>
+</div>
+<div class="col">
+<img src="Images/return.png">
+<div class="text">
+   <p><b>Return within 30 days </b>of recieving your order.</p>
+</div>
+</div>
+<div class="col">
+<img src="Images/delivery.jpg">
+<div class="text">
+   <p><b>Get free delivery for every </b>order on more than price.</p>
+</div>
+</div>
+<div class="col">
+<img src="Images/pay.png">
+<div class="text">
+   <p><b>Pay Online through multiple </b>options<br>(Cart/Net banking.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-------------Footer------------->
+
+<section class="footer">
+<div class="container">
+      <div class="row">
+      <div class="col">
+      <h1>Useful Links</h1>
+      <p>Privacy Policy</p>
+      <p>Terms of Use</p>
+      <p>Return Policy</p>
+      <p>Discount Coupons</p>
+      </div>
+      <div class="col">
+      <h1>Eye Conic</h1>
+      <p>About Us</p>
+      <p>Contact Us</p>
+      <p>Career</p>
+      <p>Affiliate</p>
+      </div>
+      <div class="col">
+      <h1>Follow Us On</h1>
+      <p><i class="fa fa-facebook-official"></i> Facebook</p>
+      <p><i class="fa fa-youtube-play"></i> Youtube</p>
+      <p><i class="fa fa-linkedin"></i> Linkedin</p>
+      <p><i class="fa fa-twitter"></i> Twitter</p>
+      </div>
+      <div class="app">
+      <h1>Download App</h1>
+      <img src="Images/apple-app-store.png">
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Mode with <i class="fa fa-heart-o"></i> by Anas Nadeem</p>
+</div>
+</section>
+
+
+
+
+<script>
+function searchFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myinput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById('wrapper');
+    li = ul.getElementsByTagName('li');
+
+    for(i=0 ; i< li.length; i++){
+        a = li[i].getElementsByTagName('a')[0];
+        if(a.innerHTML.toUpperCase().indexOf(filter) > -1){
+            li[i].style.display = "";
+        }
+
+        else{
+            li[i].style.display = 'none';
+        }
+    }
+}
+
+function openmenu()
+  {
+	  document.getElementById("side").style.display="block";
+	  document.getElementById("menu-btn").style.display="none";
+	  document.getElementById("close-btn").style.display="block";
+  }
+function closemenu()
+  {
+	  document.getElementById("side").style.display="none";
+	  document.getElementById("menu-btn").style.display="block";
+	  document.getElementById("close-btn").style.display="none";
+  }
+
+</script>
+
+
+</body>
+</html>
