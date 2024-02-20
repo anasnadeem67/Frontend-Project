@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>National Park</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.0-web/css/all.css">
+
+<link rel="icon" href="img1 (2).jpg" type="image/gif" sizes="16x16">
+
+</head>
+
+<body>
+	<section class="header">
+	<div class="ribbon">
+		<a href="about_us.html">About us</a>
+		<p><i class="fas fa-phone-alt"></i>+ 00 151515</p>
+	</div>
+	 <div class="main">
+	 	<a href="index.html"><img src="Logo.png" title="Home"></a>
+		 <div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="animals.html">Animals</a></li>
+				<li class="drop-btn"><button class="places" onclick="places()">Places</button><i class="fas fa-angle-down"></i>
+                <ul class="drop-down" id="drop-down">
+                	<li><a href="The Fishing Lodge.html">The Fishing Lodge</a></li>
+                	<li><a href="the floating resort.html">The Floating Resort</a></li>
+                	<li><a href="The Yurt.html">The Yurt</a></li>
+                	<li><a href="The Boutique Hotel.html">The Boutique Hotel</a></li>
+                </ul>
+				</li>
+				<li><a href="tickets_passes.html">Tickets & Passes</a></li>
+				<li><a href="Contact.html">Contact us</a></li>
+				<button class="search" onclick="search()" title="Search">
+				<i class="fas fa-search"></i></button>
+				<button class="bars" onClick="openmenu()" id="menu-btn"><i class="fas fa-bars" id="menu-btn"></i></button>
+				<button class="times" onClick="closemenu()" id="close-btn"><i class="fas fa-times"id="close-btn"></i></button>
+			</ul>
+	 </div> 
+	</div>
+
+	<div class="br" id="side">
+	 	<i class="fas fa-search"></i>
+	 	<input type="text" class="search" placeholder="Search">
+	</div>
+</section>
+
+<section class="last">
+	<div class="heding">
+		<h1>12 Stunning Animals From Our National Parks</h1>
+	</div>
+		<div class="bgd">
+			<div class="r1">
+				<div class="c1">
+					<img src="Lion.jpg">
+					<h3>Lion</h3>
+					<p>Lions are the mammals. They grow about 5 to 6 feet long from its head to the back and can weigh as much as 130 kg...</p>
+					<div class="bton"><a href="Lion.html">Read More</a></div>
+					
+				</div>
+				<div class="c1">
+					<img src="bald_eagle.jpg">
+					<h3>Bald Eagle</h3>
+					<p>Bald Eagles typically nest in forested areas adjacent to large bodies of water, staying away from heavily...</p>
+					<div class="bton"><a href="bald_eagle.html">Read More</a></div>
+					
+				</div>
+				<div class="c1">
+					<img src="Black-Necked Stilt.jpg">
+					<h3>Black-Necked Stilt</h3>
+					<p>Black-necked Stilts inhabit shallow wetlands with limited vegetation, including salt ponds and pans...</p>
+					<div class="bton"><a href="Black_Necked_Stilt.html">Read More</a></div>
+					
+				</div>
+				<div class="c1">
+					<img src="Caribou.jpg">
+					<h3>Caribou</h3>
+					<p>Caribou habitats include arctic tundra regions, sub arctic boreal forests and mountainous habitats...</p>
+					<div class="bton"><a href="Caribou.html">Read More</a></div>
+					
+				</div>
+				
+			</div>
+			<div class="r1">
+				<div class="c1">
+					<img src="Elephant Seal.jpg">
+					<h3>Elephant Seal</h3>
+					<p>Northern elephant seals reside terrestrially on the sandy, rocky or muddy shores of the coastline...</p>
+					<div class="bton"><a href="Elephant Seal.html">Read More</a></div>
+					
+				</div>
+				<div class="c1">
+					<img src="Garibaldi Damselfish.jpg">
+					<h3>Garibaldi Damselfish</h3>
+					<p>Garibaldi damselfish occurs in the Eastern Pacific Ocean, from Monterey Bay in California...</p>
+					<div class="bton"><a href="Garibaldi Damselfish.html">Read More</a></div>
+					
+				</div>
+				<div class="c1">
+					<img src="Grizzly Bear.jpg">
+					<h3>Grizzly Bear</h3>
+					<p>Grizzlies once lived in much of western North America and even roamed the Great Plains. These animals need...</p>
+					<div class="bton"><a href="Grizzly Bear.html">Read More</a></div>
+					
+				</div>
+				<div class="c1">
+					<img src="Horned Toad.jpg">
+					<h3>Horned Toad</h3>
+					<p>Regardless of where they occur, there is a similarity in their habits. In the fall, they hibernate...</p>
+					<div class="bton"><a href="Horned Toad.html">Read More</a></div>
+					
+				</div>
+
+				
+			</div>
+			<div class="r1">
+				<div class="c1">
+					<img src="Prairie Dogs.jpg">
+					<h3>Prairie Dogs</h3>
+					<p>Prairie dogs live in North America and parts of Canada and Mexico. They inhabit much of the Great...</p>
+					<div class="bton"><a href="Prairie Dogs.html">Read More</a></div>
+					
+				</div>
+				<div class="c1">
+					<img src="Purple Gallinule.jpg">
+					<h3>Purple Gallinule</h3>
+					<p>Purple Gallinules are almost always found near freshwater, even during migration. For nesting...</p>
+					<div class="bton"><a href="Purple Gallinule.html">Read More</a></div>
+					
+				</div>
+				<div class="c1">
+					<img src="Red Fox.jpg">
+					<h3>Red Fox</h3>
+					<p>Red foxes live in a wide range in the Northern Hemisphere. They live in grasslands, deserts...</p>
+					<div class="bton"><a href="Red Fox.html">Read More</a></div>
+					
+				</div>
+				<div class="c1">
+					<img src="Western Scrub-Jays.jpg">
+					<h3>Western Scrub-Jays</h3>
+					<p>California Scrub-Jays are found in scrub, oak woodlands, and suburban yards of the Pacific Seaboard...</p>
+					<div class="bton"><a href="Western Scrub-Jays.html">Read More</a></div>
+					
+				</div>
+				
+			</div>
+		</div>
+
+
+	</section>
+
+<section class="responsive">
+		<div class="small" id="small">
+			<ul>
+				<i class="fas fa-search"></i>
+				<input type="text" class="text" placeholder="Search">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="animals.html">Animals</a></li>
+				<li><a href="tickets_passes.html">Tickets & Passes</a></li>
+				<li class="re-places"><a href="#" onclick="return place();">Places<i class="fas fa-angle-down"></i></a>
+					<ul class="drop-content" id="drop-content">
+						<li><a href="The Fishing Lodge.html">The Fishing Lodge</a></li>
+						<li><a href="the floating resort.html">The Floating Resort</a></li>
+						<li><a href="The Yurt.html">The Yurt</a></li>
+						<li class="border"><a href="The Boutique Hotel.html">The Boutique Hotel</a></li>
+					</ul>
+				</li>
+				<li><a href="Contact.html">Contact us</a></li>
+				<li><a href="sitemap.html">Sitemap</a></li>				
+			</ul>
+		</div>
+	</section>
+
+<section class="footer">
+<div class="containr">
+      <div class="row">
+      <div class="col">
+      <h6>National Park</h6>
+      <p><a href="Privacy Policy.html">Privacy Policy</a></p>
+      <p><a href="termofuse.html">Terms of Use</a></p>
+      <p><a href="disclaimer.html">Copytight and Diclaimer</a></p>
+      <p><a href="about_us.html">About us</a></p>
+      </div>
+      <div class="col">
+      <h6>Places</h6>
+      <p><a href="The Fishing Lodge.html">The Fishing Lodge</a></p>
+      <p><a href="the floating resort.html">The Floating Resort</a></p>
+      <p><a href="The Yurt.html">The Yurt</a></p>
+      <p><a href="The Boutique Hotel.html">The Boutique Hotel</a></p>
+      </div>
+      <div class="col">
+      <h6>Stay upto date</h6>
+      <p><a href="update.html">News and Update</a></p>
+      <p><a href="Contact.html">Contacts us</a></p>
+      <p><a href="feedback.html">Feedback</a></p>
+      <p class="call"><i class="fas fa-phone-alt"></i>+ 00 151515</p>
+      </div>
+      <div class="col">
+      <h6>More Links</h6>
+      <p><a href="cookies.html">Cookies</a></p>
+      <p><a href="copyright.html">Copyright</a></p>
+      <p><a href="sitemap.html">Sitemap</a></p>
+      <p><a href="app.html">Our App</a></p>
+      </div>
+   
+       <div class="logo">
+       	<div>
+		<a href="index.html"><img src="Logo2.PNG" title="Home" class="image"></a>
+         </div>
+        <div class="social">
+        
+       	<span class="icons" title="National Park On Facebook"><i class="fab fa-facebook-f"></i></span>
+       	<span class="icons" title="National Park On Twitter"><i class="fab fa-twitter"></i></span>
+       	<span class="icons" title="National Park On Instagram"><i class="fab fa-instagram"></i></span>
+       	<span class="icons" title="National Park On Youtube"><i class="fab fa-youtube"></i></span>
+       	<span class="icons" title="National Park On Email"><i class="fas fa-envelope"></i></span>
+
+       </div>
+       <div class="copyright">
+           <p>Copyright © 2020 <a href="index.html">National Park</a> <b> | </b> All Rights Reserved</p>
+       </div>
+
+       </div>
+
+
+	</section>
+
+
+	<script type="text/javascript">
+
+	function search() {
+  var x = document.getElementById('side');
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
+}
+
+
+function places() {
+  var x = document.getElementById('drop-down');
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
+}
+
+function place() {
+  var x = document.getElementById('drop-content');
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
+}
+
+function openmenu()
+  {
+	  document.getElementById("small").style.display="block";
+	  document.getElementById("menu-btn").style.display="none";
+	  document.getElementById("close-btn").style.display="block";
+  }
+function closemenu()
+  {
+	  document.getElementById("small").style.display="none";
+	  document.getElementById("menu-btn").style.display="block";
+	  document.getElementById("close-btn").style.display="none";
+  }		
+ 	</script>
+	
+
+</body>
+
+</html>
